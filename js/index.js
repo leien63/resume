@@ -1,5 +1,11 @@
 // JavaScript Document
 //--------------换肤----------------
+  /*$('.circle1').on('click',function(){
+	  var imgurl=['../img/dt5.jpg','../img/dt6.jpg'];
+	   
+	     document.body.style.backgroundImage='imgurl[0]';
+	  }); */
+
  
  var seal=document.getElementById("seal");
    var sealimg=seal.getElementsByTagName("img");
@@ -8,6 +14,7 @@
 	   $('#seal img').addClass('afterseal');
 	  $('.sealdl').addClass('aftersealdl');
 	   $('.roatimg').addClass('afterroat');
+	   $('.descrit').hide(1000);
 	  // $('.lin1').addClass('lin1opacity');
 	   }
   //--------------判断年份---------------
