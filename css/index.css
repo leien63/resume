@@ -3,15 +3,22 @@
 * { padding:0; margin:0;}
 dl,ul,li { list-style:none;}
 ul { padding-left:0;}
-body { font-size:16px; background:url(../img/dt4.jpg);}
+body { font-size:16px; background:url(../img/dt4.jpg); max-height:1080px;}
 .box { height:860px; width:1000px; margin:50px auto; background:linear-gradient(#09F,#FFF);  box-shadow:2px 2px 2px 1px #333; border-top:none; box-sizing:border-box; text-align:center; position:relative;}
 #seal img,#city img,.certification img,.now img{ width:120px; height:120px; border:2px #09C solid; border-radius:50%; box-shadow:1px 1px 1px 1px #FFC; opacity:.6; transition:all 1s; margin-top:300px; position:relative; z-index:5;}
 
 /*换肤*/
-.change { width:250px; height:64px; box-sizing:border-box; border:1px #3f4160 solid; border-radius:4px; position:absolute; top:15px; left:450px; clear:both; z-index:7;}
+/*.change { width:250px; height:64px; box-sizing:border-box; border:1px #3f4160 solid; border-radius:4px; position:absolute; top:15px; left:450px; clear:both; z-index:7;}
 .circle { width:60px; height:60px; border-radius:50%; border:1px #d7d7d7 solid; float:left; cursor:pointer; border:1px #CCC solid;}
 .circle { margin:auto 10px;}
-.circle img { width:60px; height:60px;}
+.circle img { width:60px; height:60px;}*/
+
+/*------情况说明---------*/
+.descrit { width:460px; height:120px; border:1px #999 solid; border-radius:5px; position:absolute; top:500px; left:300px; box-sizing:border-box; box-shadow:1px 1px 1px 1px #FFC; z-index:6; clear:both; background:#CDE7E7;}
+.desleft { width:20%; height:110px; background:#e7e7e7; border:1px #999 solid; border-radius:2px; line-height:110px; text-align:center; margin-top:3px; float:left; margin-left:2px; font-size:18px; box-shadow:1px 1px 1px 1px #FFC;}
+.desright { float:right; text-align:left; width:66%; height:110px; line-height:28px; margin-top:2px;}
+.desright h3 { margin-left:-25px;}
+
 
 
 /*序幕*/
