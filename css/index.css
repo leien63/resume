@@ -15,9 +15,9 @@ body { font-size:16px; background:url(../img/dt4.jpg); max-height:1080px;}
 
 /*------情况说明---------*/
 .descrit { width:460px; height:120px; border:1px #999 solid; border-radius:5px; position:absolute; top:500px; left:300px; box-sizing:border-box; box-shadow:1px 1px 1px 1px #FFC; z-index:6; clear:both; background:#CDE7E7;}
-.desleft { width:20%; height:110px; background:#e7e7e7; border:1px #999 solid; border-radius:2px; line-height:110px; text-align:center; margin-top:3px; float:left; margin-left:2px; font-size:18px; box-shadow:1px 1px 1px 1px #FFC;}
-.desright { float:right; text-align:left; width:66%; height:110px; line-height:28px; margin-top:2px;}
-.desright h3 { margin-left:-25px;}
+.desleft { width:20%; height:80px; background:#FFF; border:15px #09C solid; border-radius:5px; line-height:90px; text-align:center; margin-top:4px; float:left; margin-left:2px; box-shadow:1px 1px 1px 1px #FFC;}
+.desright { float:right; text-align:left; width:66%; height:110px; line-height:28px; margin-top:4px;}
+.desright h3 { margin-left:-22px;}
 
 
 
