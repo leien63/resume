@@ -118,6 +118,19 @@
 	$('#shouqi').on('click',function(){
 		$('#prelude').slideUp(1000);
 		});
+		
+   //----------------作品-----------------	
+      $('#wrap').on('mouseover',function(){
+		$('#product').slideDown(1000);
+		});
+	$('#shouqi2').on('click',function(){
+		$('#product').slideUp(1000);
+		});
+   
+   /*var a=document.getElementById("wrap");
+   a.onmouseover*/
+   //--------------------------------------	
+		
    function city2(){
 	       var result5=document.getElementById("result5");
 		   var val=$('input:radio[name="lc"]:checked').val();
